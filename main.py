@@ -74,7 +74,7 @@ def main(stdscr):
     
         wpm_test(stdscr)
         stdscr.clear()
-        stdscr.addstr(2,0,f"Congratuations you completed the test with score of: {pk}Wpm")
+        stdscr.addstr(2,0,f"Congratuations you completed the test with score of: {pk} Wpm")
         stdscr.addstr("\nPress any key to continue or 'Esc' to escape.")
         key1 = stdscr.getkey()
         if ord(key1) == 27:
