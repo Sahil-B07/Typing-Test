@@ -19,7 +19,7 @@ A “word” is equivalent to five keystrokes. During a test, both speed and acc
 </br>
 
 ## Languages and Tools
-- [x] <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python" width="120" hight="50">&nbsp;
+- [x] ![python](http://ForTheBadge.com/images/badges/made-with-python.svg)
 - [x] <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Vs_code" width="230" hight="50">
 
 </br>
@@ -40,5 +40,7 @@ In this project we have used ```Curses``` module.
 
 ## Keyboard and Fingers Position
 <img align="center" src="https://github.com/Sahil-B07/Typing-Test/blob/main/assets/img/fingure_positions1.png" width="600">
+
+</br>
 
 
