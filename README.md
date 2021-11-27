@@ -6,9 +6,10 @@
 
 # Table of Content :
 
-- [Details](#Details)
-- [Languages and Tools](#Languages-and-Tools)
-- [Installation and Libraries used](#Installation-and-Libraries-used)
+- [ ] [Details](#Details)
+- [ ] [Languages and Tools](#Languages-and-Tools)
+- [ ] [Installation and Libraries used](#Installation-and-Libraries-used)
+- [ ] [Keyboard and Fingers Position](#Keyboard-and-Fingers-Position)
 
 
 ## Details 
@@ -21,4 +22,23 @@ A “word” is equivalent to five keystrokes. During a test, both speed and acc
 - [x] <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="python" width="120" hight="50">&nbsp;
 - [x] <img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Vs_code" width="230" hight="50">
 
+</br>
+
 ## Installation and Libraries used
+
+In this project we have used ```Curses``` module.
+
+- In Mac OS and Linux ```Curses``` is pre-install.
+- We need to install ```Curses``` in Windows with this command : 
+
+      python -m pip install windows-curses
+     or
+      
+      pip install windows-curses
+      
+</br>
+
+## Keyboard and Fingers Position
+<img align="center" src="https://github.com/Sahil-B07/Typing-Test/blob/main/assets/img/fingure_positions1.png" width="600">
+
+
