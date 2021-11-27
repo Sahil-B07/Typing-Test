@@ -44,5 +44,5 @@ In this project we have used ```Curses``` module.
 </br>
 
 ![GitHub watchers](https://img.shields.io/github/watchers/Sahil-B07/Typing-Test?style=social&label=Watch&maxAge=2592000)&nbsp;
-![GitHub stars](https://img.shields.io/github/stars/Sahil-B07?affiliations=OWNER%2CCOLLABORATOR&color=brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/Sahil-B07/Typing-Test?style=social&color=brightgreen)
 
