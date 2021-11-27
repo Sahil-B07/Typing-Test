@@ -25,7 +25,6 @@ def display(stdscr, target, current, wpm=0):
         
         stdscr.addstr(0 ,i ,char, color)
 
-
 def wpm_test(stdscr):
     target_text = "This is a sample text for this typing test."
     current_text = []
@@ -67,6 +66,7 @@ def main(stdscr):
     curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)
     curses.init_pair(2, curses.COLOR_RED, curses.COLOR_BLACK)
     curses.init_pair(3, curses.COLOR_MAGENTA, curses.COLOR_BLACK)
+    curses.init_pair(4, curses.COLOR_WHITE, curses.COLOR_BLACK)
 
     start_screens(stdscr)
 
@@ -74,11 +74,14 @@ def main(stdscr):
     
         wpm_test(stdscr)
         stdscr.clear()
-        stdscr.addstr(2,0,f"Congratuations you completed the test with score of: {pk} Wpm")
-        stdscr.addstr("\nPress any key to continue or 'Esc' to escape.")
+        
+        stdscr.addstr(f"\n*********** Score {pk} Wpm ************* ", curses.color_pair(3))
+        stdscr.addstr(2,0,f"Congratuations you completed the test.\n", curses.color_pair(1))
+        stdscr.addstr("\n\nPress any key to continue or 'Esc' to escape.\n\n")
+
         key1 = stdscr.getkey()
         if ord(key1) == 27:
-            stdscr.addstr(f"\nThank you {name}.", curses.color_pair(3))
+            stdscr.addstr(f"Thank you {name}.", curses.color_pair(3))
             stdscr.getkey()
             break
 
