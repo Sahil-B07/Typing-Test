@@ -1,6 +1,6 @@
 <h1 align="center">Typing-Test</h1>
 
-<img align="center" src="https://github.com/Sahil-B07/Typing-Test/blob/main/assets/gifs/Typing%20Test.gif" width="1000">
+<img align="center" src="https://github.com/Sahil-B07/Typing-Test/blob/main/assets/gifs/Typing%20Test.gif" width="100%">
 
 </br>
 
